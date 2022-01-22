@@ -1,5 +1,5 @@
-ipywidgets
 matplotlib
 matplotlib-inline
 numpy
 panda
+ipywidgets
