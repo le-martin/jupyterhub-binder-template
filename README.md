@@ -10,7 +10,6 @@ Either use this repository as template or create a complete new repository follo
 2. Visit [https://mybinder.org/](https://mybinder.org/) and type in your repository information.
 3. Optional: If a certain Jupyter Notebook should be started (when following the URL or clicking the Binder badge), then fill the file name of that Jupyter Notebook into the text field below **_URL to open (optional)_**.
 4. The Binder URL leading to the Jupyter Notebook in Binder is generated and can then be copied.
-5. Optional: Markdown code and RestructuredText code is also generated and can be used to embed a Binder badge which leads to the Binder URL above.
 
 ## Binder Badge
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mle313/jupyterhub-binder-template/HEAD) (Click on the badge, to run the Jupyter Notebook in Binder.)
@@ -20,7 +19,7 @@ Either use this repository as template or create a complete new repository follo
 2. Expend the the last toggle element in the gray box (**Expand to see the text below, paste it into your README to show a binder badge:**).
 3. Copy the Markdown or ReStructeured text snippet into your `README.md/`.
 
-It should have the following format (Replace '<SOME VARIABLE>' with your data):
+It should have the following format (Replace `<SOME VARIABLE>` with your data):
 - Markdown
 ```
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<GIT USER>/<REPOSITORY>/HEAD)
