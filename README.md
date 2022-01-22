@@ -36,3 +36,11 @@ It should have the following format:
 - For security reasons, the outgoing traffic of your Binder is restricted to HTTP or GitHub connections only. You will not be able to use FTP sites to fetch data on mybinder.org
 
 _Note: Only public data can be shared here. In order to share private data, the local deployment of [BinderHub](https://binderhub.readthedocs.io/en/latest/) is required. This is not part of this manual._
+
+## Beyond Notebooks...
+
+**JupyterLab** is installed into your containerized repo by default.
+You can access the environment by changing the URL you visit to:
+
+> **<https://mybinder.org/v2/gh/mle/jupyterhub-binder-template/HEAD?urlpath=lab>**
+> 
