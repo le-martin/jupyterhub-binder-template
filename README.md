@@ -10,7 +10,7 @@
 2. Expend the the last toggle element in the gray box (**Expand to see the text below, paste it into your README to show a binder badge:**).
 3. Copy the Markdown or ReStructeured text snippet into your `README.md/`.
 
-It should have the following format:
+It should have the following format (Replace '<SOME VARIABLE>' with your data):
 - Markdown
 ```
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<GIT USER>/<REPOSITORY>/HEAD)
@@ -21,30 +21,33 @@ It should have the following format:
  :target: https://mybinder.org/v2/gh/<GIT USER>/<REPOSITORY>/HEAD
 ```
 
+### Direct Link to Jupyter Notebook
+In order to link a certain Jupyter Notebook adjust the above link to the following format:
+ 
+`https://mybinder.org/v2/gh/<GIT USER>/<REPOSITORY>/HEAD?labpath=<JUPYTER NOTEBOOK NAME>`
+ 
+Example: [https://mybinder.org/v2/gh/mle313/jupyterhub-binder-template/HEAD?labpath=test.ipynb](https://mybinder.org/v2/gh/mle313/jupyterhub-binder-template/HEAD?labpath=test.ipynb)
+
 ## Add data to your Binder
 
 ### Small size data (up to 10 MB)
 - Add directly to your repository
-- 
+
 ### Middle size data (between 10 MB and 100 MB)
 - Add a `postBuild` script/file  to your repo
 - `postBuild` script can include middle size data into your image
 - See [Binder's `postBuild` example](https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment) for more uses of the `postBuild` script.
+
+Example [`postBuild`](https://github.com/mle313/jupyterhub-binder-template/blob/main/postBuild) for downloading data from the internet and add them to your repo image created by Binder:
+```bash
+wget -q -O gapminder.csv http://bit.ly/2uh4s3g
+```
 
 ### Large size data
 - Use a library specific to the data format to stream the data as you're using it or to download it on demand as part of your code
 - For security reasons, the outgoing traffic of your Binder is restricted to HTTP or GitHub connections only. You will not be able to use FTP sites to fetch data on mybinder.org
 
 _Note: Only public data can be shared here. In order to share private data, the local deployment of [BinderHub](https://binderhub.readthedocs.io/en/latest/) is required. This is not part of this manual._
-
-## Beyond Notebooks...
-
-**JupyterLab** is installed into your containerized repo by default.
-You can access the environment by changing the URL you visit to:
-
-> **<https://mybinder.org/v2/gh/mle/jupyterhub-binder-template/main?urlpath=lab>**
-
-or add `lab` to _URL to open (optional)_ in [Binder](https://mybinder.org/) and go to link generated in the box below.
 
 ---
 
