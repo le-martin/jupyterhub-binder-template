@@ -20,3 +20,19 @@ It should have the following format:
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/<GIT USER>/<REPOSITORY>/HEAD
 ```
+
+## Add data to your Binder
+
+### Small size data (up to 10 MB)
+- Add directly to your repository
+- 
+### Middle size data (between 10 MB and 100 MB)
+- Add a `postBuild` script/file  to your repo
+- `postBuild` script can include middle size data into your image
+- See [Binder's `postBuild` example](https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment) for more uses of the `postBuild` script.
+
+### Large size data
+- Use a library specific to the data format to stream the data as you're using it or to download it on demand as part of your code
+- For security reasons, the outgoing traffic of your Binder is restricted to HTTP or GitHub connections only. You will not be able to use FTP sites to fetch data on mybinder.org
+
+_Note: Only public data can be shared here. In order to share private data, the local deployment of [BinderHub](https://binderhub.readthedocs.io/en/latest/) is required. This is not part of this manual._
