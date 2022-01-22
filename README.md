@@ -2,6 +2,16 @@
 
 **The following information was extracted from ["From Zero to Binder in Python!" by Sarah Gibson (The Alan Turing Institute)](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder-python.md) (21.01.2022) which belongs to [The Turing Way Community](https://github.com/alan-turing-institute/the-turing-way). This repo uses content of former mentioned repository and should provide a brief summary of required steps to run a Jupyter Notebook in a Git repository using [Binder](https://mybinder.org/).**
 
+## Quick Instructions
+
+Either use this repository as template or create a complete new repository following the rules below.
+
+1. Create/upload your Jupyter Notebooks and a `requirements.txt` file containing the dependencies of your Jupyter Notebooks.
+2. Visit [https://mybinder.org/](https://mybinder.org/) and type in your repository information.
+3. Optional: If a certain Jupyter Notebook should be started (when following the URL or clicking the Binder badge), then fill the file name of that Jupyter Notebook into the text field below **_URL to open (optional)_**.
+4. The Binder URL leading to the Jupyter Notebook in Binder is generated and can then be copied.
+5. Optional: Markdown code and RestructuredText code is also generated and can be used to embed a Binder badge which leads to the Binder URL above.
+
 ## Binder Badge
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mle313/jupyterhub-binder-template/HEAD) (Click on the badge, to run the Jupyter Notebook in Binder.)
 
