@@ -8,8 +8,9 @@ Either use this repository as template or create a complete new repository follo
 
 1. Create/upload your Jupyter Notebooks and a `requirements.txt` file containing the dependencies of your Jupyter Notebooks.
 2. Visit [https://mybinder.org/](https://mybinder.org/) and type in your repository information.
-3. Optional: If a certain Jupyter Notebook should be started (when following the URL or clicking the Binder badge), then fill the file name of that Jupyter Notebook into the text field below **_URL to open (optional)_**.
-4. The Binder URL leading to the Jupyter Notebook in Binder is generated and can then be copied.
+<!---3. Optional: If a certain Jupyter Notebook should be started (when following the URL or clicking the Binder badge), then fill the file name of that Jupyter Notebook into the text field below **_URL to open (optional)_**.--->
+3. The Binder URL leading to the Jupyter Notebook in Binder is generated and can then be copied.
+4. (Optional) For [embedding a binder badge](#binder-badge) in the `README.md`, [linking a certain Jupyter Notebook](#direct-link-to-jupyter-notebook) or [using custom public data](#add-data-to-your-binder), see below.
 
 ## Binder Badge
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mle313/jupyterhub-binder-template/HEAD) (Click on the badge, to run the Jupyter Notebook in Binder.)
