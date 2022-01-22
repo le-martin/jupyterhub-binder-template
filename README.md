@@ -59,7 +59,7 @@ wget -q -O gapminder.csv http://bit.ly/2uh4s3g
 
 _Note: Only public data can be shared here. In order to share private data, the local deployment of [BinderHub](https://binderhub.readthedocs.io/en/latest/) is required. This is not part of this manual._
 
-### Example Binder repositories:
+## Example Binder repositories:
 To find more examples and other Binder repositories with various cool user interfaces, check this [link](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html).
 
 ---
