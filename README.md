@@ -42,5 +42,5 @@ _Note: Only public data can be shared here. In order to share private data, the 
 **JupyterLab** is installed into your containerized repo by default.
 You can access the environment by changing the URL you visit to:
 
-> **<https://mybinder.org/v2/gh/mle/jupyterhub-binder-template/HEAD?urlpath=lab>**
+> **<https://mybinder.org/v2/gh/mle/jupyterhub-binder-template/main?urlpath=lab>**
 > 
