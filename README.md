@@ -17,7 +17,7 @@ Either use this repository as template or create a complete new repository follo
 ### How to add a binder badge to your README.md
 1. Type in the URL of your Git repository on the [Binder webpage](https://mybinder.org/).
 2. Expend the the last toggle element in the gray box (**Expand to see the text below, paste it into your README to show a binder badge:**).
-3. Copy the Markdown or ReStructeured text snippet into your `README.md/`.
+3. Copy the Markdown or ReStructeured text snippet into your `README.md`.
 
 It should have the following format (Replace `<SOME VARIABLE>` with your data):
 - Markdown
