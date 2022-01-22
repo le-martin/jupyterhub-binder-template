@@ -43,4 +43,5 @@ _Note: Only public data can be shared here. In order to share private data, the 
 You can access the environment by changing the URL you visit to:
 
 > **<https://mybinder.org/v2/gh/mle/jupyterhub-binder-template/main?urlpath=lab>**
-> 
+
+or add `lab` to _URL to open (optional)_ in [Binder](https://mybinder.org/) and go to link generated in the box below.
