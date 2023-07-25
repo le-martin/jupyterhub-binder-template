@@ -2,8 +2,8 @@
 # `pip freeze > requirements.txt`
 #
 # The following lines contains the dependencies, e.g. the Python3 libraries needed to run the Jupyter notebooks in this repository.
-ipywidgets==7.6.5
-matplotlib==3.5.1
-matplotlib-inline==0.1.3
-numpy==1.21.5
-pandas==1.3.5
+ipywidgets
+matplotlib
+matplotlib-inline
+numpy
+pandas
